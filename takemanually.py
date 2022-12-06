@@ -299,7 +299,7 @@ def manually_fill():
                 import subprocess
 
                 subprocess.Popen(
-                    r'explorer /select,"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\Attendance"'
+                    r'explorer /select,"C:/Users/user/Documents/GitHub/Attendance-Management-system-using-face-recognition/Attendance(Manually)"'
                 )
 
             attf = tk.Button(

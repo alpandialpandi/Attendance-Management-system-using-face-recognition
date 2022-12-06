@@ -113,7 +113,7 @@ def subjectChoose(text_to_speech):
                 date = datetime.datetime.fromtimestamp(ts).strftime("%Y-%m-%d")
                 timeStamp = datetime.datetime.fromtimestamp(ts).strftime("%H:%M:%S")
                 Hour, Minute, Second = timeStamp.split(":")
-                # fileName = "Attendance/" + Subject + ".csv"
+                fileName = "Attendance/" + Subject + ".csv"
                 path = os.path.join(attendance_path, Subject)
                 fileName = (
                     f"{path}/"
@@ -224,7 +224,7 @@ def subjectChoose(text_to_speech):
             text_to_speech(t)
         else:
             os.startfile(
-                f(r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\Attendance\{sub}")
+                f'C:\\Users\\user\\Documents\\GitHub\\Attendance-Management-system-using-face-recognition\\Attendance\\{sub}'
             )
 
     attf = tk.Button(
