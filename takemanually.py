@@ -182,7 +182,7 @@ def manually_fill():
             def create_csv():
                 df = pd.DataFrame(d)
                 csv_name = (
-                    "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance(Manually)\\"
+                    "C:\\Users\\user\\Documents\\GitHub\\Attendance-Management-system-using-face-recognition\\Attendance(Manually)\\"
                     + subb
                     + "_"
                     + Date
@@ -299,7 +299,7 @@ def manually_fill():
                 import subprocess
 
                 subprocess.Popen(
-                    r'explorer /select,"C:/Users/patel/OneDrive/Documents/E/FBAS/Attendance(Manually)"'
+                    r'explorer /select,"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\Attendance"'
                 )
 
             attf = tk.Button(

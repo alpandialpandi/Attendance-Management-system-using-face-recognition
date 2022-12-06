@@ -11,15 +11,15 @@ import time
 import tkinter.ttk as tkk
 import tkinter.font as font
 
-haarcasecade_path = "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\haarcascade_frontalface_default.xml"
+haarcasecade_path = r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\haarcascade_frontalface_default.xml"
 trainimagelabel_path = (
-    "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\TrainingImageLabel\\Trainner.yml"
+    r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\TrainingImageLabel\Trainner.yml"
 )
-trainimage_path = "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\TrainingImage"
+trainimage_path = r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\TrainingImage"
 studentdetail_path = (
-    "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\StudentDetails\\studentdetails.csv"
+    r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\StudentDetails\studentdetails.csv"
 )
-attendance_path = "C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance"
+attendance_path = r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\Attendance"
 # for choose subject and fill attendance
 def subjectChoose(text_to_speech):
     def FillAttendance():
@@ -224,7 +224,7 @@ def subjectChoose(text_to_speech):
             text_to_speech(t)
         else:
             os.startfile(
-                f"C:\\Users\\patel\\OneDrive\\Documents\\E\\FBAS\\Attendance\\{sub}"
+                f(r"C:\Users\user\Documents\GitHub\Attendance-Management-system-using-face-recognition\Attendance\{sub}")
             )
 
     attf = tk.Button(
